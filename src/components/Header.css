@@ -1,0 +1,43 @@
+.hover:hover{
+  scale: 1.1;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.shadow{
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+transition: all .2s ease-in-out;
+}
+
+.red:hover{
+  color: red;
+  /* text-shadow: 1px 1px  10px red; */
+}
+.nav-sh{
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+}
+
+.bg{
+ /* background: rgb(248 228 253); */
+ background: rgb(255, 255, 255);
+}
+
+
+.hamburger{
+  width: 30px;
+  height: 30px;
+  font-weight: bolder;
+  margin: auto 1rem;
+  margin-right: .6rem;
+  cursor: pointer;
+}
+.logo{
+  width: 14rem;
+  margin: auto;
+  height: 100%;
+}
+
+@media only screen and (max-width: 640px) {
+   /* .bg{
+    background: red
+   } */
+}
