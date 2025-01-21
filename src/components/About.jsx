@@ -1,6 +1,6 @@
 import React from 'react'
 import about from '../assets/about.png'
-import aboutbg from '../assets/aboutbg.png'
+import profile from '../assets/profile.png'
 
 function About() {
   return (
@@ -82,7 +82,7 @@ function About() {
             <div className="col-md-4">
               <div className="team-card">
                 <img
-                  src="https://via.placeholder.com/200"
+                  src={profile}
                   alt="Team Member"
                   className="img-fluid rounded-circle mb-3 shadow"
                 />
@@ -93,7 +93,7 @@ function About() {
             <div className="col-md-4">
               <div className="team-card">
                 <img
-                  src="https://via.placeholder.com/200"
+                   src={profile}
                   alt="Team Member"
                   className="img-fluid rounded-circle mb-3 shadow"
                 />
@@ -104,7 +104,7 @@ function About() {
             <div className="col-md-4">
               <div className="team-card">
                 <img
-                  src="https://via.placeholder.com/200"
+                   src={profile}
                   alt="Team Member"
                   className="img-fluid rounded-circle mb-3 shadow"
                 />
