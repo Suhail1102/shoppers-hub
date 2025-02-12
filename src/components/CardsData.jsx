@@ -12,6 +12,7 @@ import Placeholder from 'react-bootstrap/Placeholder';
 
 
 
+
 export default function CardsData() {
     const [open, setOpen] = useState(false);
 

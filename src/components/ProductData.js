@@ -1,22 +1,3 @@
-// let products = [];
-
-// // Fetch data from the API and populate the array
-// async function fetchProducts() {
-//   try {
-//     const response = await fetch("https://dummyjson.com/products");
-//     const data = await response.json();
-//     products = data.products; // Assuming the API response has a 'products' array
-//   } catch (error) {
-//     console.error("Error fetching products:", error);
-//   }
-// }
-
-// // Immediately invoke the fetchProducts function to fill the products array
-// fetchProducts();
-
-// // Export the products array and fetch function
-// export { products, fetchProducts };
-
 
  export  const products = [
       {
